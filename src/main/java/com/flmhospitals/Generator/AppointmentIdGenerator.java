@@ -16,7 +16,6 @@ public class AppointmentIdGenerator {
 		String prefix = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
 		String lastId = appointmentRepository.findLastAppointmentId();
 
-
 		int nextNumber = 1;
 
 		if (lastId != null && lastId.length() > 14) {

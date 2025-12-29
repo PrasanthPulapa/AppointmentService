@@ -8,7 +8,7 @@ import com.flmhospitals.model.Appointment;
 import jakarta.persistence.PrePersist;
 
 @Component
-public class AppointmentEntityListner {
+public class AppointmentEntityListener {
 
 	public static AppointmentIdGenerator appointmentIdGenerator;
 
